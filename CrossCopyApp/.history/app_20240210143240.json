@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Cross Copy",
+    "slug": "CrossCopy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/CC_ICON.png",
+    "userInterfaceStyle": "dark",
+    "scheme": [
+      "crosscopy"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "react-native-document-scanner-plugin"
+    ],
+    "splash": {
+      "image": "./assets/CC_SPLASH.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#252525"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a722a42f-d88b-484e-8071-99f81ecfca04"
+      }
+    },
+    "owner": "cedarche",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/a47af2fe-6acb-422b-91fa-59fcd878e089"
+    },
+    "android": {
+      "package": "com.cedarche.CrossCopyApp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/CC_ICON.png",
+        "backgroundColor": "#252525"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.cedarche.CrossCopyApp"
+    }
+  }
+}

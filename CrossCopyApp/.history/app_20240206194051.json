@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "crosscopy2",
+    "slug": "crosscopy2",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "react-native-document-scanner-plugin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a47af2fe-6acb-422b-91fa-59fcd878e089"
+      }
+    },
+    "owner": "cedarche",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/a47af2fe-6acb-422b-91fa-59fcd878e089"
+    },
+    "android": {
+      "package": "com.cedarche.crosscopy2"
+    },
+    "ios": {
+      "bundleIdentifier": "com.cedarche.crosscopy2"
+    }
+  }
+}
